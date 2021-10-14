@@ -1,0 +1,32 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    header {
+        height: 100px;
+
+        h1 {
+            align-items: center;
+            background-color: navy;
+            color: #eee;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            margin: 0;
+        }
+    }
+
+
+    main {
+        display: flex;
+        flex-grow: 1;
+    }
+    
+    .back-btn {
+        position: absolute;
+        top: 35px;
+        left: 20px;
+        z-index: 1000;
+    }
+}
