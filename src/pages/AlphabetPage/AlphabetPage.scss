@@ -1,0 +1,10 @@
+.AlphabetPage {
+    width: 100%;
+
+    .ant-tabs-tabpane {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+}

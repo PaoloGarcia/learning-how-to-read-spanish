@@ -1,33 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshot testing 1`] = `
-<DocumentFragment>
-  <div
-    class="Layout"
-  >
-    <header>
-      Menu
-    </header>
-    <main />
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Snapshot testing redering the component with no args, only children content 1`] = `
-<DocumentFragment>
-  <div
-    class="Layout"
-  >
-    <header>
-      Menu
-    </header>
-    <main>
-      Hello
-    </main>
-  </div>
-</DocumentFragment>
-`;
-
 exports[`Snapshot testing rendering component with arguments 1`] = `
 <DocumentFragment>
   <div
@@ -62,7 +34,9 @@ exports[`Snapshot testing rendering component with arguments 1`] = `
       </button>
     </nav>
     <header>
-      Paolo
+      <h1>
+        Paolo
+      </h1>
     </header>
     <main>
       Hello
@@ -77,7 +51,9 @@ exports[`Snapshot testing rendering the component with no args, only children co
     class="Layout"
   >
     <header>
-      Menu
+      <h1>
+        Menu
+      </h1>
     </header>
     <main>
       Hello

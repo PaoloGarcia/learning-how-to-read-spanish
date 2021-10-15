@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshot Testing rendering component with no args 1`] = `
+exports[`Snapshot testing renders component with no args 1`] = `
 <DocumentFragment>
   <div
     class="Layout"
@@ -34,10 +34,12 @@ exports[`Snapshot Testing rendering component with no args 1`] = `
       </button>
     </nav>
     <header>
-      Abecedario
+      <h1>
+        Silabas
+      </h1>
     </header>
     <main>
-      <div />
+      Syllables
     </main>
   </div>
 </DocumentFragment>

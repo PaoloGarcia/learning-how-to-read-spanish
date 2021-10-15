@@ -34,7 +34,9 @@ exports[`Snapshot testing renders component without args 1`] = `
       </button>
     </nav>
     <header>
-      Palabras
+      <h1>
+        Palabras
+      </h1>
     </header>
     <main>
       Words

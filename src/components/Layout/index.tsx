@@ -11,11 +11,22 @@ type Props = {
 
 function Layout({ children, backButton = false, title = "Menu" }: Props): JSX.Element {
     const history = useHistory()
+    console.log("history: ", history)
+
+    const goHomePage = (): void => {
+        history.push("/")
+    }
+
     return (
         <div className="Layout">
             {backButton && (
                 <nav className="back-btn">
-                    <Button type="primary" shape="circle" icon={<ArrowLeftOutlined />} onClick={history.goBack} />
+                    <Button
+                        type="primary"
+                        shape="circle"
+                        icon={<ArrowLeftOutlined />}
+                        onClick={goHomePage}
+                    />
                 </nav>
             )}
             <header>
