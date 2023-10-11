@@ -1,13 +1,16 @@
-import { Tabs } from "antd"
-import Layout from "../../components/Layout"
-import Card from "../../components/Card"
-import { alphabet, consonants, vowels } from "../../constants"
-import "./AlphabetPage.scss"
+import { Tabs } from "antd";
+import Layout from "../../components/Layout";
+import Card from "../../components/Card";
+import { alphabet, consonants, vowels } from "../../constants";
+import "./AlphabetPage.scss";
 
 function AlphabetPage(): JSX.Element {
     const renderCards = (LettersArr: string[]): JSX.Element[] => {
-        return LettersArr.map((letter: string, i: number): JSX.Element => <Card key={i} text={letter} />)
-    }
+        return LettersArr.map(
+            (letter: string) => <Card key={letter} text={letter} />
+        );
+    };
+
     return (
         <Layout backButton title="Abecedario">
             <div className="AlphabetPage">
@@ -24,7 +27,7 @@ function AlphabetPage(): JSX.Element {
                 </Tabs>
             </div>
         </Layout>
-    )
+    );
 }
 
-export default AlphabetPage
+export default AlphabetPage;

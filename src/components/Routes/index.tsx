@@ -1,8 +1,8 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom"
-import HomePage from '../../pages/HomePage'
-import AlphabetPage from "../../pages/AlphabetPage"
-import SyllablesPage from "../../pages/SyllablesPage"
-import WordsPage from "../../pages/WordsPage"
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import HomePage from '../../pages/HomePage';
+import AlphabetPage from "../../pages/AlphabetPage";
+import SyllablesPage from "../../pages/SyllablesPage";
+import WordsPage from "../../pages/WordsPage";
 
 function Routes(): JSX.Element {
     return (
@@ -22,7 +22,7 @@ function Routes(): JSX.Element {
                 </Route>
             </Switch>
         </BrowserRouter>
-    )
+    );
 }
 
-export default Routes
+export default Routes;
